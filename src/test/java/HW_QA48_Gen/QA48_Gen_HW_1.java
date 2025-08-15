@@ -13,12 +13,12 @@ public class QA48_Gen_HW_1 {
     @BeforeMethod
     public void setUp() {
         driver = new ChromeDriver();
-        driver.get("https://ed.kidskey.org/");
+        driver.get("https://demowebshop.tricentis.com/");
     }
 
     @Test
     public void openKidskeyTest() {
-        System.out.println("Kidskey opened");
+        System.out.println("Demowebshop opened");
     }
 }
 
