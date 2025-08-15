@@ -11,16 +11,17 @@ public class FirstSeleniumTest {
 
     //before -setUp
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://www.google.com/");
     }
 
     //test -name
 
+
     @Test
 
-    public void openGoogleTest(){
+    public void openGoogleTest() {
         System.out.println("Google opened");
     }
 

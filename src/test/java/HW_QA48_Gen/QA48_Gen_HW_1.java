@@ -11,6 +11,7 @@ public class QA48_Gen_HW_1 {
     WebDriver driver;
 
     @BeforeMethod
+
     public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://demowebshop.tricentis.com/");
