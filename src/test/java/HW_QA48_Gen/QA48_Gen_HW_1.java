@@ -11,13 +11,13 @@ public class QA48_Gen_HW_1 {
     WebDriver driver;
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://ed.kidskey.org/");
     }
 
     @Test
-    public void openKidskeyTest(){
+    public void openKidskeyTest() {
         System.out.println("Kidskey opened");
     }
 }
