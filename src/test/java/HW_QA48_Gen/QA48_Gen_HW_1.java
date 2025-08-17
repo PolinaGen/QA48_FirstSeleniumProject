@@ -17,6 +17,7 @@ public class QA48_Gen_HW_1 {
         driver.get("https://demowebshop.tricentis.com/");
     }
 
+
     @Test
     public void openKidskeyTest() {
         System.out.println("Demowebshop opened");
