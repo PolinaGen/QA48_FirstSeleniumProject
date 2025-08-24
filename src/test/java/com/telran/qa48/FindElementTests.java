@@ -87,7 +87,7 @@ public class FindElementTests {
     //      //*[@atrr='value']
 
     @Test
-    public void findElementByXpath(){
+    public void findElementByXpath() {
         //tag -> xpath - //tag
         //driver.findElement(By.tagName("h1"));
         driver.findElement(By.xpath("//h1"));
